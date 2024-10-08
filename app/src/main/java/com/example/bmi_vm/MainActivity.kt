@@ -58,7 +58,7 @@ fun BmiScreen(
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         Text(
-            text = "Body Mass Index",
+            text = stringResource(R.string.body_mass_index),
             fontSize = 24.sp,
             color = MaterialTheme.colorScheme.primary,
             textAlign = TextAlign.Center,
